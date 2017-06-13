@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div class="call-out" 
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
+
+  <div class="work">
+    <a href="pokemon"><h2>Pokebros</h2></a>
+      <li><a href="pokemon"><img src="img/pokemon/blue.png" alt="blue"/></a></li>
+      <li><a href="pokemon"><img src="img/pokemon/green.png" alt="green"/></a></li>
+      <li><a href="pokemon"><img src="img/pokemon/red.png" alt="red"/></a></li>
+  </div>
+
+  <div class="work">
+  {% for project in paginator.posts %}
+        <li>
+          <img src="{{ project.image-path }}" class="thumbnail" alt="{{ project.title }}"/>
+          <a href="{{ project.url }}">{{ project.title }}</a>
+          <p>{{ project.short-description }}</p>
+        </li>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_prev }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
