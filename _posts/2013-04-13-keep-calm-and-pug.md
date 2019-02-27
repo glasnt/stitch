@@ -2,6 +2,7 @@
 layout: post
 title: Keep Calm and Pug
 image-path: img/keepcalmpug.png
+center-img: img/keepcalmpug.png
 
 date: 2013-04-13
 ---

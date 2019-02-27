@@ -12,16 +12,18 @@ layout: default
 
   <div class="work">
     <a href="pokemon"><h2>Pokebros</h2></a>
-      <li><a href="pokemon"><img src="img/pokemon/blue.png" alt="blue"/></a></li>
-      <li><a href="pokemon"><img src="img/pokemon/green.png" alt="green"/></a></li>
-      <li><a href="pokemon"><img src="img/pokemon/red.png" alt="red"/></a></li>
+      <li><a href="pokemon"><img src="{{site.baseurl}}/img/pokemon/blue.png" alt="blue"/></a></li>
+      <li><a href="pokemon"><img src="{{site.baseurl}}/img/pokemon/green.png" alt="green"/></a></li>
+      <li><a href="pokemon"><img src="{{site.baseurl}}/img/pokemon/red.png" alt="red"/></a></li>
   </div>
 
   <div class="work">
   {% for project in paginator.posts %}
         <li>
+          <a href="{{site.baseurl}}/{{ project.url }}">
           <img src="{{ project.image-path }}" class="thumbnail" alt="{{ project.title }}"/>
-          <a href="{{ project.url }}">{{ project.title }}</a>
+          {{ project.title }}
+          </a>
           <p>{{ project.short-description }}</p>
         </li>
     {% endfor %}
