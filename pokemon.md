@@ -10,7 +10,7 @@ When I first saw the [pokebros](http://paulrobertson.mechafetus.com/allbros02.gi
 
 The artwork is by [Paul Robertson](https://twitter.com/probzz), an Australian artist known for his work with Australian band [Architecture in Helsinki](https://www.youtube.com/watch?v=MXIzyquw-kc), [Mercenary Kings](http://mercenarykings.com/), and [Scott Pilgrim vs The World: The Game](https://www.youtube.com/watch?v=yAY4vNJd7A8). 
 
-![allbros2](../img/allbros02.gif)
+![allbros2](img/allbros02.gif)
 *Bros, Paul Robertson, 2011*
 
 These three works were created over the course of 2012. Each piece is 50cm x 80cm, with a wooden frame, the artwork mounted in recess. 
