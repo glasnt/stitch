@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "stitch" # the subpath of your site, e.g. /blog/
+baseurl: "/stitch/" # the subpath of your site, e.g. /blog/
 url: "glasnt.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
