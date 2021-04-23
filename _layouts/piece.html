@@ -1,0 +1,22 @@
+---
+layout: article
+---
+
+{% if page.cover %}
+<div class="grid-container">
+    <div class="cell cell--2">&nbsp;</div>
+    <div class="cell cell--auto">
+        <div class="card">
+            <div class="card__image">
+                <img class="image" src="{{page.cover}}" />
+            </div>
+        </div>
+    </div>
+    <div class="cell cell--2">&nbsp;</div>
+</div>
+{% endif %}
+
+
+{% if page.material %}<i>Materials:</i> {{page.material}}
+{% if page.pattern %}<a href="{{page.pattern.link}}" target=_blank>{% if page.pattern.publisher %}Pattern by {{page.pattern.publisher}}{%else%}Link to pattern{%endif%}</a>.{% endif %}<hr>{% endif %}
+{{content}}

@@ -1,17 +1,20 @@
 ---
-layout: post
+layout: piece
+
 title: Little trees
-image-path: img/littletrees/pyconmini_7.png
+cover: img/littletrees/pyconmini_7.png
 permalink: littletrees
+
+material: 10ct canvas, DMC tapestry wool. 
 ---
 
-Coming soon to [PyCon US 2019](https://us.pycon.org/2019/#!)
+Process released as an Instagram Story, a small demo made for PyCon US. See [full design](/stitch/pyconus2019).
 
-<style>img { max-width: 50% } </style>
-![PyConMini 1]({{base_path}}/stitch/img/littletrees/pyconmini_1.png)
-![PyConMini 2]({{base_path}}/stitch/img/littletrees/pyconmini_2.png)
-![PyConMini 3]({{base_path}}/stitch/img/littletrees/pyconmini_3.png)
-![PyConMini 4]({{base_path}}/stitch/img/littletrees/pyconmini_4.png)
-![PyConMini 5]({{base_path}}/stitch/img/littletrees/pyconmini_5.png)
-![PyConMini 6]({{base_path}}/stitch/img/littletrees/pyconmini_6.png)
-![PyConMini 7]({{base_path}}/stitch/img/littletrees/pyconmini_7.png)
+<img class="image image--md" src="img/littletrees/pyconmini_1.png"/>
+<img class="image image--md" src="img/littletrees/pyconmini_2.png"/>
+<img class="image image--md" src="img/littletrees/pyconmini_3.png"/>
+<br>
+<img class="image image--md" src="img/littletrees/pyconmini_4.png"/>
+<img class="image image--md" src="img/littletrees/pyconmini_5.png"/>
+<img class="image image--md" src="img/littletrees/pyconmini_6.png"/>
+<img class="image image--md" src="img/littletrees/pyconmini_7.png"/>

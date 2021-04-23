@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: piece
+
 title: Pokebros
-portfolio: false
-hide: true
-feature-img: "img/pokemon/all.png"
+cover: img/pokemon/all.png
+permalink: pokebros
+
+material: 14ct canvas, DMC floss, professionally framed. 
+
 ---
 
 When I first saw the [pokebros](http://paulrobertson.mechafetus.com/allbros02.gif), I knew I had to stitch them. 
@@ -16,8 +19,11 @@ The artwork is by [Paul Robertson](https://twitter.com/probzz), an Australian ar
 These three works were created over the course of 2012. Each piece is 50cm x 80cm, with a wooden frame, the artwork mounted in recess. 
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/mikepirnat/34751066432/in/album-72157684291069175/" title="IMG_0756.jpg"><img src="https://c1.staticflickr.com/5/4228/34751066432_4d489521ec_n.jpg" width="320" height="213" alt="IMG_0756.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/mikepirnat/34782968461/in/album-72157684291069175/" title="IMG_0672.jpg"><img src="https://c1.staticflickr.com/5/4228/34782968461_f4948ee70e_n.jpg" width="320" height="213" alt="IMG_0672.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/mikepirnat/34103766463/in/album-72157684291069175/" title="IMG_0693.jpg"><img src="https://c1.staticflickr.com/5/4269/34103766463_ebbe273077_n.jpg" width="320" height="213" alt="IMG_0693.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 *Doug, Lynn, and Lorena; displaying the tapestries at the 2017 PyLadies Auction in Portland, Oregon. Photography by [Mike Pirnat](https://www.flickr.com/photos/mikepirnat/), all rights reserved*
 
 
