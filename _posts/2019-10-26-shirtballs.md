@@ -1,7 +1,5 @@
 ---
 layout: piece
-
-
 nsfw: true 
 title: Shirtballs (NSFW)
 cover: img/shirtballs.jpg
